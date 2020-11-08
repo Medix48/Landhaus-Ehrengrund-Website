@@ -1,0 +1,46 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Colors
+
+// As hex codes */
+
+$color-primary-0: #cbbab0; // Main Primary color */
+$color-primary-1: #fffcf9;
+$color-primary-2: #f3e8e2;
+$color-primary-3: #a99385;
+$color-primary-4: #896e5e;
+
+$theme-colors: (
+  'primary': #cbbab0,
+);
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.carousel-item {
+  img {
+    width: 100%;
+  }
+}
+
+.img-links {
+  img {
+    width: 100%;
+    border-radius: 3px;
+    transition: filter 0.5s ease, transform 0.5s;
+  }
+
+  img:hover {
+    transform: scale(1.01);
+    filter: blur(2px);
+  }
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
