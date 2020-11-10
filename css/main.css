@@ -19,6 +19,14 @@
   filter: blur(2px);
 }
 
+.img-links .carousel-caption {
+  transition: opacity 0.5s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

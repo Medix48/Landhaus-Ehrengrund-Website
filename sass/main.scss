@@ -41,6 +41,14 @@ $theme-colors: (
     transform: scale(1.01);
     filter: blur(2px);
   }
+
+  .carousel-caption {
+    transition: opacity 0.5s;
+  }
+}
+
+.hidden {
+  opacity: 0;
 }
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
