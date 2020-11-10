@@ -12,7 +12,8 @@ $color-primary-3: #a99385;
 $color-primary-4: #896e5e;
 
 $theme-colors: (
-  'primary': #cbbab0,
+  'primary': #9b7159,
+  'secondary': #f3e8e2,
 );
 
 .bd-placeholder-img {
@@ -35,20 +36,27 @@ $theme-colors: (
     width: 100%;
     border-radius: 3px;
     transition: filter 0.5s ease, transform 0.5s;
+    filter: saturate(40%);
   }
 
   img:hover {
     transform: scale(1.01);
-    filter: blur(2px);
+    filter: saturate(120%);
   }
 
   .carousel-caption {
     transition: opacity 0.5s;
+    pointer-events: none; //makes it click-trough for hover-effect
   }
 }
 
 .hidden {
   opacity: 0;
+}
+
+.footer-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';

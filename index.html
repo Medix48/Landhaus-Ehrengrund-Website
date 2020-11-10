@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/main.css" crossorigin="anonymous" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-primary navbar-light sticky-top">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top">
       <div class="container">
         <a href="index.html" class="navbar-brand" href="/"
           >Landhaus Ehrengrund</a
@@ -49,21 +49,23 @@
                 >Wohnen</a
               >
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Appartements</a>
-                <a class="dropdown-item" href="#">Preise</a>
+                <a class="dropdown-item" href="appartements.html"
+                  >Appartements</a
+                >
+                <a class="dropdown-item" href="preise.html">Preise</a>
               </div>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Entspannung</a>
+              <a class="nav-link" href="entspannung.html">Entspannung</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Rund ums Haus</a>
+              <a class="nav-link" href="unserHaus.html">Rund ums Haus</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Umgebung</a>
+              <a class="nav-link" href="umgebung.html">Umgebung</a>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Kontakt</a>
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -89,7 +91,10 @@
                 <h1>Urlaub im Grünen.</h1>
                 <p>Erleben sie wunderschöne Tage in der Rhön.</p>
                 <p>
-                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="unserHaus.html"
+                    role="button"
                     >Zu unserem Haus</a
                   >
                 </p>
@@ -103,7 +108,10 @@
                 <h1>Entspannung.</h1>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
                 <p>
-                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="entspannung.html"
+                    role="button"
                     >Zur Entspannung</a
                   >
                 </p>
@@ -117,7 +125,10 @@
                 <h1>Die Rhön.</h1>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
                 <p>
-                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                  <a
+                    class="btn btn-lg btn-primary"
+                    href="umgebung.html"
+                    role="button"
                     >Zur Umgebung</a
                   >
                 </p>
@@ -146,7 +157,7 @@
       </div>
 
       <div class="container my-5">
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid bg-secondary">
           <div class="container">
             <h1 class="display-4">Urlaub im Grünen.</h1>
             <p class="lead">
@@ -168,7 +179,7 @@
 
         <div class="row my-4">
           <div class="col-md-6 img-links">
-            <a href="">
+            <a href="appartements.html">
               <img src="img/featurette_600x500.jpg" alt="" />
               <div class="carousel-caption text-left hidden">
                 <span class="display-4">Appartements</span>
@@ -176,10 +187,10 @@
             </a>
           </div>
           <div class="col-md-6 img-links">
-            <a href="">
+            <a href="unserHaus.html">
               <img src="img/featurette_600x500_2.jpg" alt="" />
               <div class="carousel-caption text-left hidden">
-                <span class="display-4">Unser Haus</span>
+                <span class="display-4">Rund ums Haus</span>
               </div>
             </a>
           </div>
@@ -187,7 +198,7 @@
 
         <div class="row my-4">
           <div class="col img-links">
-            <a href="">
+            <a href="umgebung.html">
               <img src="img/featurette_1200x500.jpg" alt="" />
               <div class="carousel-caption text-left hidden">
                 <span class="display-4">Umgebung</span>
@@ -201,7 +212,14 @@
 
       <footer class="text-muted bg-primary py-5">
         <div class="container">
-          <p>FOOTER</p>
+          <div class="row text-white">
+            <div class="col">
+              <p class="footer-heading">KONTAKT</p>
+            </div>
+            <div class="col">
+              <p class="footer-heading">LINKS & SOCIAL MEDIA</p>
+            </div>
+          </div>
         </div>
       </footer>
     </main>
